@@ -6,9 +6,9 @@ public class Address {
     private String city;
     private String code;
 
-    Address(String n,String s,String city,String c){
+    public Address(String n,String s,String city,String c){
         name=n;
-        street-s;
+        this.street=s;
         this.city=city;
         code=c;
     }
